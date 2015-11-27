@@ -1,0 +1,4 @@
+{# Show a default button  #}
+{% set classes = 'btn ' ~ classes|default("") %}
+
+<a href="{{ url }}" class="{{ classes }}">{{ label }}</a>

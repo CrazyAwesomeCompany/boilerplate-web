@@ -1,0 +1,7 @@
+{% extends 'template/default.html.twig' %}
+
+{% block siteContentBody %}
+  <h1>Crazy Awesome Company - Boilerplate Web</h1>
+
+  {% include 'partial/button.html.twig' with { url: '#', label: 'A Link Button', classes: 'btn-default' } only %}
+{% endblock %}

@@ -1,0 +1,23 @@
+{% spaceless %}
+<html>
+  <head>
+
+  </head>
+  <body>
+  {% block siteBody %}
+    <header>
+
+    </header>
+
+    {% block siteContentBody %}{% endblock %}
+
+    {% block siteContentFooter %}
+      <footer>
+        <p>Boilerplate by <a href="http://www.crazyawesome.company">Crazy Awesome Company</a></p>
+      </footer>
+    {% endblock %}
+
+  {% endblock %}
+  </body>
+</html>
+{% endspaceless %}
