@@ -1,5 +1,8 @@
 {
-    "name": "Crazy Awesome Web Boilerplate",
+    "name": "cac/boilerplate-web",
+    "description": "Crazy Awesome Web Boilerplate",
+    "keywords": ["boilerplate"],
+    "homepage": "http://www.crazyawesomecompany.com",
     "require": {
         "silex/silex": "~1.3",
         "twig/twig": "~1.0"
